@@ -1,0 +1,17 @@
+{
+  "name": "napi-mouse",
+  "version": "0.0.0",
+  "main": "main.js",
+  "gypfile": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bindings": "*",
+    "node-addon-api": "*"
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-rebuild": "^2.3.2"
+  }
+}
